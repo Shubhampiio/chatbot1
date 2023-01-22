@@ -7,11 +7,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "17057708") 
-API_HASH = os.environ.get("API_HASH", "b5f97648e6de5f0098db3ca4da989fc3") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5969342446:AAG2LY7QOCuKDnHxX9mT9mrYPaaRFALEi9k") 
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
-
+API_ID = os.environ.get("API_ID", "18960528") 
+API_HASH = os.environ.get("API_HASH", "cc0fff577b677c9b2b4de5dd5bc5dfd1") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5607218250:AAF5V7dFoSUFof0fjjNQ3PayQvcKXBlI0E0") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority")
 
 bot = Client(
     "EmiliaBot" ,
